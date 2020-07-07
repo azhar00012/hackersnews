@@ -1,0 +1,46 @@
+{
+  "name": "hackernews",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.10.2",
+    "node": "12.8.1"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-charts": "^2.0.0-beta.7",
+    "react-dom": "^16.13.1",
+    "react-js-pagination": "^3.0.3",
+    "react-pagination-table": "^2.0.2",
+    "react-scripts": "3.4.1",
+    "react-table": "^7.2.2",
+    "react-time-ago": "^6.0.0",
+    "react-timeago": "^4.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

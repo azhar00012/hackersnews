@@ -1,0 +1,39 @@
+.table th {
+  background-color: orangered;
+  color: #ffffff;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.grey {
+  color: grey;
+}
+
+.upvote {
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.upvote:hover {
+  color: orangered;
+}
+
+.mobile-100 {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .d-sm-table-header-group {
+    display: table-header-group !important;
+  }
+  .mobile-100 {
+    width: auto;
+  }
+}
+
+
+
+
+
